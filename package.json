@@ -1,0 +1,19 @@
+{
+  "name": "weave-bro-apparel",
+  "version": "1.0.0",
+  "description": "Weave Bro - Wear The Wave | 240+ GSM Heavyweight T-Shirt Brand Webapp",
+  "scripts": {
+    "start": "python -m http.server 8080",
+    "deploy": "npx vercel --prod",
+    "deploy:preview": "npx vercel"
+  },
+  "keywords": [
+    "streetwear",
+    "t-shirts",
+    "heavyweight",
+    "240gsm",
+    "ecommerce"
+  ],
+  "author": "Weave Bro Apparel Co.",
+  "license": "MIT"
+}
