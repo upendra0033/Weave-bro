@@ -2,7 +2,7 @@
 <html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
   <title>Weave Bro | Wear The Wave - 240+ GSM Heavyweight T-Shirts</title>
   <meta name="description" content="Weave Bro - Wear the wave. Premium heavyweight 240+ GSM combed cotton t-shirts, oversized street silhouettes, bio-washed and pre-shrunk for the ultimate structured drape.">
   <meta name="keywords" content="Weave Bro, Wear the Wave, Heavyweight T-Shirt, 240 GSM, Oversized Tee, Streetwear, Cotton T-Shirts India">
@@ -657,7 +657,7 @@
         <div>
           <div class="footer-brand-title">WEAVE BRO.</div>
           <div class="footer-tagline">wear the wave</div>
-          <p style="max-width: 320px; line-height: 1.6; margin-bottom: 20px;">
+          <p style="max-width: min(100%, 20rem); line-height: 1.6; margin-bottom: 20px;">
             Weave Bro is dedicated to re-engineering daily essentials. Heavyweight 240+ GSM cotton, architectural streetwear silhouettes, and unapologetic attitude.
           </p>
           <div style="display: flex; gap: 12px;">
@@ -941,7 +941,7 @@
         </svg>
       </button>
 
-      <div style="padding: 32px;">
+      <div class="modal-content-padded">
         <h2 style="font-family: var(--font-heading); font-size: 1.4rem; font-weight: 800; margin-bottom: 20px;">
           SECURE WEAVE BRO CHECKOUT
         </h2>
@@ -1038,7 +1038,7 @@
 
         <!-- Step 3: Success Screen -->
         <div id="checkoutStep3" style="display: none; text-align: center; padding: 20px 0;">
-          <div style="width: 64px; height: 64px; background: var(--c-emerald-bg); color: var(--c-emerald); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
+          <div style="width: 4rem; height: 4rem; background: var(--c-emerald-bg); color: var(--c-emerald); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
@@ -1068,7 +1068,7 @@
        SIZE GUIDE MODAL
        ========================================================================== -->
   <div class="modal-overlay" id="sizeGuideModal">
-    <div class="modal-container" style="max-width: 680px;">
+    <div class="modal-container modal-size-guide">
       <button class="modal-close-btn" id="closeSizeGuideBtn">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <line x1="18" y1="6" x2="6" y2="18"></line>
@@ -1076,7 +1076,7 @@
         </svg>
       </button>
 
-      <div style="padding: 32px;">
+      <div class="modal-content-padded">
         <h3 style="font-family: var(--font-heading); font-size: 1.4rem; font-weight: 800; margin-bottom: 8px;">
           WEAVE BRO SIZE & SILHOUETTE GUIDE
         </h3>
@@ -1333,7 +1333,7 @@
             Update live announcement text, hero headlines, badges, and brand copy in real-time.
           </p>
 
-          <form id="storeSettingsForm" style="max-width: 720px;">
+          <form id="storeSettingsForm" style="max-width: min(100%, 45rem); width: 100%;">
             <div class="checkout-form-grid">
               <div class="form-group full">
                 <label class="form-label">Top Announcement Bar Text</label>
@@ -1388,7 +1388,7 @@
 
           <!-- Add Promo Form -->
           <form id="addPromoForm" style="background: var(--bg-secondary); padding: 18px; border-radius: var(--radius-sm); margin-bottom: 24px;">
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)) 120px; gap: 12px; align-items: flex-end;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 140px), 1fr)); gap: 12px; align-items: flex-end;">
               <div class="form-group">
                 <label class="form-label">Promo Code *</label>
                 <input type="text" class="form-input" id="newPromoCode" required placeholder="e.g. FLASH25" style="text-transform: uppercase;">
@@ -1592,7 +1592,7 @@
        USER PROFILE & ORDERS MODAL ("MY BRO ACCOUNT")
        ========================================================================== -->
   <div class="modal-overlay" id="accountModal">
-    <div class="modal-container" style="max-width: 760px;">
+    <div class="modal-container modal-account">
       <button class="modal-close-btn" id="closeAccountModalBtn" aria-label="Close Account">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <line x1="18" y1="6" x2="6" y2="18"></line>
@@ -1600,7 +1600,7 @@
         </svg>
       </button>
 
-      <div style="padding: 32px;">
+      <div class="modal-content-padded">
         
         <!-- Header Banner -->
         <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; flex-wrap: wrap; gap: 16px;">
